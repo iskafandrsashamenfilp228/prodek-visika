@@ -167,3 +167,36 @@
     text-align: center;
     display: block;
 }
+.audio-holder {
+    width:540px;
+}
+.audio-detail {
+    flex: 1;
+}
+.control {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.control i {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1,25rem;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.audio-author {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.time {
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}

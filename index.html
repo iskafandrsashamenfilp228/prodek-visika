@@ -40,7 +40,7 @@
             </section>
             <section class="header-info-block">
                 <div class="card-info">
-                    <img src="/img/girl-avatar.png" alt="" class="card-info-img">
+                    <img src="img/girl-avatar.png" alt="" class="card-info-img">
                     <h2 class="info-title">Karen William</h2>
                     <span class="info-subtitle">Senior Designer</span>
                 </div>
@@ -55,21 +55,48 @@
                         </p>
                     </div>
 
-<div class="auto-block">
-    <img src="/img/man-avatar.png" alt="">
+<div class="audio-block">
+    <img src="img/man-avatar.png" alt="">
     <div class="audio-container">
-        <img src="img/audio.png" class="audio-track" alt="">
-        <a href="#" class="play-btn">
-            <img src="img/icons/play.svg" alt="">
-        </a>
+     <img src="img/audio.png" class="audio-track" alt="">
+     <a href="#" class="play-bth">
+        <img src="img/icons/play.svg" alt="">
+     </a>  
+        <div class="audio-detail">
+            <div class="control">
+                <i class="fi-rr-play" id="playPause"></i>
+            </div>
+            <div id="wave"></div>
+        </div>
     </div>
 </div>
+<div class="audio-author">
 <h2 class="about-title">Testimoial</h2>
 <span class="about-subtitle">Tom Hope</span>
+</div>
+<div class="time">
+    <span id="current">0:00</span>
+    <span id="duration">0:00</span>
+</div>
                 </div>
             </section>
         </div>
 
     </header>
+    <main class="main-content">
+        <div class="container">
+            <section class="courses">
+                <h1 class="course-section-title">Popular Courses <br> this week</h1>
+
+                <section class="course-row">
+                    Первый ряд
+                </section>
+                 
+                <section class="course-row"></section>
+            </section>
+        </div>
+    </main>
+    <script src="media.js"></script>
+    <script src="wavesurfer.js"></script>
 </body>
 </html>
